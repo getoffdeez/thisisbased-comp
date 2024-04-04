@@ -31,6 +31,7 @@ const Dashboard = () => {
           <div className='flex flex-col gap-1'>
             <Image src="/degen.png" alt="logo" width={200} height={60} className='h-50' />
             <span className='italic text-sm text-slate-300'>Degentlemen reveal on 4/11.</span>
+           
           </div>
           <div className='flex flex-col'>
             <h1 className='text-3xl tracking-tighter uppercase font-bold italic'>Win a Degentlemen</h1><p className='text-lg'>Degentlemen #6840</p>
