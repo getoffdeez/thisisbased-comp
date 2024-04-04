@@ -53,20 +53,20 @@ const Dashboard = () => {
         </div>
       </div>
 
-      <div className='flex gap-4 flex-wrap md:flex-nowrap'>
-      <div className='panel flex flex-1 h-48 flex-col gap-4'>
+      <div className='flex gap-4 flex-wrap'>
+      <div className='panel flex flex-1 h-[260px] md:h-full w-full flex-col gap-4'>
           <Image src="/uplink-logo.svg" alt="uplink" width={25} height={25}  />
-          <h3 className='text-lg tracking-tighter bold uppercase'>1. Must be uploaded to Uplink</h3>
+          <h3 className='text-md md:text-lg tracking-tighter bold uppercase'>1. Must be uploaded to Uplink</h3>
           <Button variant="secondary"><Link href="https://uplink.wtf/basedmanagement/mintboard">Visit Uplink </Link></Button>       
         </div>
-        <div className='panel flex flex-1 flex-col h-48 gap-4 justify-center'>
-          <h3 className='text-lg tracking-tighter bold uppercase'>2. To participate upload your submission on Monday, 8, 2024.</h3>     
+        <div className='panel flex flex-1 h-[260px] md:h-48 w-full  flex-col gap-4 justify-center'>
+          <h3 className='text-md md:text-lg tracking-tighter bold uppercase'>2. To participate upload your submission on Monday, 8, 2024.</h3>     
         </div>
-        <div className='panel flex flex-1 flex-col h-48 gap-4 justify-center'>
-          <h3 className='text-lg tracking-tighter bold uppercase'>3. The brief has to be Based related.</h3>     
+        <div className='panel flex flex-1 h-[260px] md:h-48 w-full  flex-col gap-4 justify-center'>
+          <h3 className='text-md md:text-lg tracking-tighter bold uppercase'>3. The brief has to be Based related.</h3>     
         </div>
-        <div className='panel flex flex-1 flex-col h-48 gap-4 justify-center'>
-          <h3 className='text-lg tracking-tighter bold uppercase'>4. Monday, 15, 2024 winner will be decided. The idea with the most mints wins.</h3>     
+        <div className='panel flex flex-1 h-[260px] md:h-48  w-full  flex-col gap-4 justify-center'>
+          <h3 className='text-md md:text-lg tracking-tighter bold uppercase'>4. Monday, 15, 2024 winner will be decided. The idea with the most mints wins.</h3>     
         </div>
       </div>
     </div>
