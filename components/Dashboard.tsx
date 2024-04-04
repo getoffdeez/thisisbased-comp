@@ -27,31 +27,31 @@ const Dashboard = () => {
   return (
     <div className='h-full flex flex-col gap-4 justify-between'>
       <div className='flex gap-4 h-full flex-wrap md:flex-nowrap'>
-        <div className='panel ml-auto mr-auto h-full w-full p-4 flex gap-8'>
-          <div className='flex flex-col gap-4'>
+        <div className='panel ml-auto mr-auto h-full w-full p-4 flex gap-8 items-center'>
+          <div className='flex flex-col gap-2'>
             <Image src="/degen.png" alt="logo" width={200} height={60} className='h-50' />
-            <span>Degentlemen reveal on 4/11.</span>
+            <span className='italic'>Degentlemen reveal on 4/11.</span>
           </div>
-          <div>
-            <h1>Competition</h1><p>Degentlemen #6840</p>
-            <Link href="https://opensea.io/assets/base/0x93d9212fb2111b4619c48393a4cc2c9e1983edb3/6840">Item to view</Link>
+          <div className='flex flex-col'>
+            <h1 className='text-3xl tracking-tighter uppercase font-bold italic'>Win a Degentlemen</h1><p className='text-lg'>Degentlemen #6840</p>
+            <Link className='text-lg w-full mt-4' href="https://opensea.io/assets/base/0x93d9212fb2111b4619c48393a4cc2c9e1983edb3/6840"><Button className='hover:blue-600'>View on opensea</Button></Link>
           </div>
         </div>
         <div className='panel ml-auto mr-auto h-full w-full p-4'>
         <div className='mb-4'>
-            <h2 className='text-2xl bolder tracking-tighter'>Objective:</h2>
-            <p>Unleash your creativity to enhance the Base ecosystem. Whether you're an artist, builder, or innovator, we want your vision!</p>
+            <h2 className='text-2xl font-bold italic tracking-tighter'>Objective:</h2>
+            <p>Unleash your creativity and make your mark with Based Management. Whether you're an artist, builder, or innovator, your unique vision is what we're seeking.</p>
           </div>
           <div className='mb-4'>
-            <h2 className='text-2xl bolder tracking-tighter'>How to Enter:</h2>
+            <h2 className='text-2xl font-bold italic tracking-tighter'>How to Enter:</h2>
             <ol className='list-decimal pl-4 space-y-2'>
-              <li>Upload your Base-related idea to Uplink by April 8, 2024.</li>
-              <li>Engage: The community votes with their mints. Most mints by April 15, 2024, wins.</li>
+              <li>Upload your Base-related idea to Uplink on Monday, April 8, 2024.</li>
+              <li>Engage & Win: Rally the community to mint your idea. The project with the most mints by Monday, April 15, 2024, secures victory.</li>
             </ol>
           </div>
           <div>
-            <p className='mb-4'>Prize: The top vision wins a Degentlemen #6840 NFT and becomes a featured project within our community, setting the direction for Based Management's future endeavors.</p>
-            <p className='mb-4'>Why Participate? It’s your chance to contribute to the Base protocol's growth, gain community recognition, and win an exclusive NFT!</p>
+            <p className='mb-4'><strong>Prize:</strong> The winning vision earns the coveted Degentlemen #6840 NFT and sets the direction for future projects by Based Interns, showcasing what's truly valuable to our ecosystem.</p>
+            <p className='mb-4'><strong>Why Participate?</strong> This isn't just a contest—it's your chance to shape the future, earn recognition, steer our Intern program towards innovation, and win an exclusive NFT!</p>
             <p>Let’s build the future of Base together. Be bold, be innovative, be Based.</p>
           </div>
         </div>
