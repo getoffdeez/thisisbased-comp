@@ -52,7 +52,7 @@ Unleash your creativity and leave your mark with Based Management. Whether youâ€
             </ol>
           </div>
           <div>
-            <p className='mb-4'><strong>Prize:</strong> The winning vision earns the coveted Degentlemen #6840 NFT and sets the direction for future projects by Based Interns, showcasing what's truly valuable to our ecosystem.</p>
+            <p className='mb-4'><strong>Prize:</strong> The winning vision earns the coveted Degentlemen #6840 NFT and sets the direction for future projects by Based Interns, showcasing what's truly valuable to our mission.</p>
             <p className='mb-4'><strong>Why Participate?</strong> This isn't just a contestâ€”it's your chance to shape the future, earn recognition, steer our Intern program towards innovation, and win an exclusive NFT!</p>
             <p>Let us build the future of Base together. Be bold, be innovative, be Based.</p>
           </div>
