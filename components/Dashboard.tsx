@@ -27,7 +27,7 @@ const Dashboard = () => {
   return (
     <div className='h-full flex flex-col gap-4 justify-between'>
       <div className='flex gap-4 h-full flex-wrap md:flex-nowrap'>
-        <div className='panel ml-auto mr-auto h-full w-full p-4 flex flex-row-reverse md:flex-row  justify-end md:justify-center items-center flex-wrap gap-2 md:gap-8'>
+        <div className='panel ml-auto mr-auto h-auto w-full p-4 flex flex-row-reverse md:flex-row  justify-end md:justify-center items-center flex-wrap gap-2 md:gap-8'>
           <div className='flex flex-col gap-1'>
             <Image src="/degen.png" alt="logo" width={200} height={60} className='h-50' />
             <span className='italic text-sm text-slate-300'>Degentlemen reveal on 4/11.</span>
