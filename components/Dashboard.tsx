@@ -38,17 +38,21 @@ const Dashboard = () => {
           </div>
         </div>
         <div className='panel ml-auto mr-auto h-full w-full p-4'>
-        <div className='mb-8'>
+        <div className='mb-4'>
             <h2 className='text-2xl bolder tracking-tighter'>Objective:</h2>
-            <p>create a project brief on something you would like Based Management to pursue</p>
+            <p>Unleash your creativity to enhance the Base ecosystem. Whether you're an artist, builder, or innovator, we want your vision!</p>
           </div>
-          <div className='mb-8'>
-            <h2 className='text-2xl bolder tracking-tighter'>Purpose:</h2>
-            <p>create a project brief on something you would like Based Management to pursue</p>
+          <div className='mb-4'>
+            <h2 className='text-2xl bolder tracking-tighter'>How to Enter:</h2>
+            <ol className='list-decimal pl-4 space-y-2'>
+              <li>Upload your Base-related idea to Uplink by April 8, 2024.</li>
+              <li>Engage: The community votes with their mints. Most mints by April 15, 2024, wins.</li>
+            </ol>
           </div>
           <div>
-            <h2 className='text-2xl bolder tracking-tighter'>Objective:</h2>
-            <p>create a project brief on something you would like Based Management to pursue</p>
+            <p className='mb-4'>Prize: The top vision wins a Degentlemen #6840 NFT and becomes a featured project within our community, setting the direction for Based Management's future endeavors.</p>
+            <p className='mb-4'>Why Participate? It’s your chance to contribute to the Base protocol's growth, gain community recognition, and win an exclusive NFT!</p>
+            <p>Let’s build the future of Base together. Be bold, be innovative, be Based.</p>
           </div>
         </div>
       </div>
