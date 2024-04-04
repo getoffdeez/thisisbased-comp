@@ -53,7 +53,7 @@ const Dashboard = () => {
         </div>
       </div>
 
-      <div className='flex gap-4 flex-wrap'>
+      <div className='flex gap-4 flex-wrap md:flex-nowrap'>
       <div className='panel flex flex-1 h-48 flex-col gap-4'>
           <Image src="/uplink-logo.svg" alt="uplink" width={25} height={25}  />
           <h3 className='text-lg tracking-tighter bold uppercase'>1. Must be uploaded to Uplink</h3>
