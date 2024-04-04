@@ -41,13 +41,14 @@ const Dashboard = () => {
         <div className='panel ml-auto mr-auto h-full w-full p-4'>
         <div className='mb-4'>
             <h2 className='text-2xl font-bold italic tracking-tighter'>Objective:</h2>
-            <p>Unleash your creativity and make your mark with Based Management. Whether you're an artist, builder, or innovator, your unique vision is what we're seeking.</p>
+            <p>
+Unleash your creativity and leave your mark with Based Management. Whether you’re an artist, builder, or innovator, we’re eager to discover how your vision can define our mission. Let your ideas lead the way and help us sculpt a collective future.</p>
           </div>
           <div className='mb-4'>
             <h2 className='text-2xl font-bold italic tracking-tighter'>How to Enter:</h2>
             <ol className='list-decimal pl-4 space-y-2'>
               <li>Upload your Base-related idea to Uplink on Monday, April 8, 2024.</li>
-              <li>Engage & Win: Rally the community to mint your idea. The project with the most mints by Monday, April 15, 2024, secures victory.</li>
+              <li>Engage & Win: Rally the community to mint your idea. The idea with the most mints by Monday, April 15, 2024, secures victory.</li>
             </ol>
           </div>
           <div>
