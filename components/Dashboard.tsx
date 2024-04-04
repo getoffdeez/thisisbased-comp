@@ -27,10 +27,10 @@ const Dashboard = () => {
   return (
     <div className='h-full flex flex-col gap-4 justify-between'>
       <div className='flex gap-4 h-full flex-wrap md:flex-nowrap'>
-        <div className='panel ml-auto mr-auto h-full w-full p-4 flex  items-center flex-wrap gap-2 md:gap-8'>
-          <div className='flex flex-col gap-2'>
+        <div className='panel ml-auto mr-auto h-full w-full p-4 flex flex-row-reverse md:flex-row  justify-end md:justify-center items-center flex-wrap gap-2 md:gap-8'>
+          <div className='flex flex-col gap-1'>
             <Image src="/degen.png" alt="logo" width={200} height={60} className='h-50' />
-            <span className='italic'>Degentlemen reveal on 4/11.</span>
+            <span className='italic text-sm text-slate-300'>Degentlemen reveal on 4/11.</span>
           </div>
           <div className='flex flex-col'>
             <h1 className='text-3xl tracking-tighter uppercase font-bold italic'>Win a Degentlemen</h1><p className='text-lg'>Degentlemen #6840</p>
@@ -52,7 +52,7 @@ const Dashboard = () => {
           <div>
             <p className='mb-4'><strong>Prize:</strong> The winning vision earns the coveted Degentlemen #6840 NFT and sets the direction for future projects by Based Interns, showcasing what's truly valuable to our ecosystem.</p>
             <p className='mb-4'><strong>Why Participate?</strong> This isn't just a contest—it's your chance to shape the future, earn recognition, steer our Intern program towards innovation, and win an exclusive NFT!</p>
-            <p>Let’s build the future of Base together. Be bold, be innovative, be Based.</p>
+            <p>Let us build the future of Base together. Be bold, be innovative, be Based.</p>
           </div>
         </div>
       </div>
